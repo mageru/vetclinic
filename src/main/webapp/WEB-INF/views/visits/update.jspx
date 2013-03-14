@@ -4,7 +4,7 @@
     <jsp:output omit-xml-declaration="yes"/>
     <form:update id="fu_com_springsource_petclinic_domain_Visit" modelAttribute="visit" path="/visits" versionField="Version" z="A8HIFayGvuc33pih4Mnc+MqUUts=">
         <field:textarea field="description" id="c_com_springsource_petclinic_domain_Visit_description" z="xqcX/Hnb52FNxML/Xqv1yGlbMUM="/>
-        <field:datetime dateTimePattern="${visit_visitdate_date_format}" field="visitDate" id="c_com_springsource_petclinic_domain_Visit_visitDate" past="true" required="true" z="Fp9bGI48YHyqfIqEJce2nLInVuw="/>
+        <field:datetime dateTimePattern="${visit_visitdate_date_format}" field="visitDate" id="c_com_springsource_petclinic_domain_Visit_visitDate" required="true" z="xpIB7xm0M/5Q/QDOVJBuu7xEwWM="/>
         <field:select field="pet" id="c_com_springsource_petclinic_domain_Visit_pet" itemValue="id" items="${pets}" path="/pets" required="true" z="LtclCBkOIeUJQ2aXgzEWFbFS/5A="/>
         <field:select field="vet" id="c_com_springsource_petclinic_domain_Visit_vet" itemValue="id" items="${vets}" path="/vets" z="CLH04FsHcZAqcoi/hnnPyte+usc="/>
     </form:update>

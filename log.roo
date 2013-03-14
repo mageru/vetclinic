@@ -109,3 +109,13 @@ osgi obr url add --url http://spring-roo-repository.springsource.org/repository.
 osgi obr deploy --bundleSymbolicName org.springframework.roo.addon.cloud.foundry
 addon search --requiresCommand "cloud"
 // Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log opened at 2013-03-13 18:52:00
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log opened at 2013-03-13 23:50:15
+exit
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log closed at 2013-03-13 23:50:30
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log opened at 2013-03-13 23:51:15
+focus --class ~.domain.Vet
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log opened at 2013-03-13 23:51:58
+focus --class ~.domain.Vet
+field date --fieldName employedSince --type java.util.Date
+exit
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log closed at 2013-03-13 23:53:09

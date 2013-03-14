@@ -41,7 +41,7 @@
 
     <spring:eval var="colCounter" expression="1" />
 
-    <table>
+    <table class="sortable">
       <thead>
         <tr>
           <c:forTokens items="${columnLabels}" delims="${'&#9999;'}" var="columnHeading">
@@ -135,7 +135,7 @@
           </c:if>
         </tr>
       </c:forEach>
-      <tr class="footer">
+      <tfoot class="footer">
         <td colspan="${colCounter}">
           <c:if test="${empty create or create}">
             <span class="new">
@@ -154,7 +154,7 @@
             <util:pagination maxPages="${maxPages}" page="${param.page}" size="${param.size}" />
           </c:if>
         </td>
-      </tr>
+      </tfoot>
     </table>
 
   </c:if>

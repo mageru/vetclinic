@@ -23,7 +23,6 @@ public class Visit {
     private String description;
 
     @NotNull
-    @Past
     @Temporal(TemporalType.TIMESTAMP)
     @DateTimeFormat(style = "M-")
     private Date visitDate;

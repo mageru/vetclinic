@@ -11,7 +11,7 @@
         <field:input field="homePage" id="c_com_springsource_petclinic_domain_Vet_homePage" max="30" z="WJy972YVcLLetYA+2rILuI+LzRA="/>
         <field:input field="email" id="c_com_springsource_petclinic_domain_Vet_email" max="30" min="6" required="true" validationMessageCode="field_invalid_email" z="zYwghptdUzZhQJFvaVPWXdQ1hy8="/>
         <field:datetime dateTimePattern="${vet_birthday_date_format}" field="birthDay" id="c_com_springsource_petclinic_domain_Vet_birthDay" required="true" z="eosrqlsmAiSv5n20LmwkMfV2rGQ="/>
-        <field:datetime dateTimePattern="${vet_employedsince_date_format}" field="employedSince" id="c_com_springsource_petclinic_domain_Vet_employedSince" past="true" required="true" z="MjbbDrGWSkndZNxIIPP80NdxIQc="/>
         <field:select field="specialty" id="c_com_springsource_petclinic_domain_Vet_specialty" items="${specialtys}" path="specialtys" z="XiH5EdiaKEIz1+ZhqH7U6EOjNFI="/>
+        <field:datetime dateTimePattern="${vet_employedsince_date_format}" field="employedSince" id="c_com_springsource_petclinic_domain_Vet_employedSince" z="OxaXrYlJgT4pBF3jV+tAQVQc6Z4="/>
     </form:update>
 </div>

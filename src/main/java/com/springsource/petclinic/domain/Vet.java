@@ -2,6 +2,7 @@ package com.springsource.petclinic.domain;
 
 import com.springsource.petclinic.reference.Specialty;
 import java.util.Calendar;
+import java.util.Date;
 import javax.persistence.Enumerated;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
@@ -19,12 +20,10 @@ import org.springframework.roo.addon.tostring.RooToString;
 @RooJson
 public class Vet extends AbstractPerson {
 
-    @NotNull
-    @Past
-    @Temporal(TemporalType.TIMESTAMP)
-    @DateTimeFormat(style = "M-")
-    private Calendar employedSince;
-
     @Enumerated
     private Specialty specialty;
+
+    @Temporal(TemporalType.TIMESTAMP)
+    @DateTimeFormat(style = "M-")
+    private Date employedSince;
 }

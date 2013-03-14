@@ -11,7 +11,7 @@
         <field:display field="homePage" id="s_com_springsource_petclinic_domain_Vet_homePage" object="${vet}" z="hvCIVMSzrSWr9U+NvZIIA1c0wQg="/>
         <field:display field="email" id="s_com_springsource_petclinic_domain_Vet_email" object="${vet}" z="67QK8p2N6odpid8R8SRrZFFycgQ="/>
         <field:display date="true" dateTimePattern="${vet_birthday_date_format}" field="birthDay" id="s_com_springsource_petclinic_domain_Vet_birthDay" object="${vet}" z="wut4Eqnz13TTuBupE1ge5DjvWsI="/>
-        <field:display calendar="true" dateTimePattern="${vet_employedsince_date_format}" field="employedSince" id="s_com_springsource_petclinic_domain_Vet_employedSince" object="${vet}" z="x81LbLDJKYqHFyphwUi/QkrTZNA="/>
         <field:display field="specialty" id="s_com_springsource_petclinic_domain_Vet_specialty" object="${vet}" z="Fgdd7Giap9QqGKzWVQnTLKhM2Aw="/>
+        <field:display date="true" dateTimePattern="${vet_employedsince_date_format}" field="employedSince" id="s_com_springsource_petclinic_domain_Vet_employedSince" object="${vet}" z="xo/jMsOcBXx8J+iYCiqjgj55MKA="/>
     </page:show>
 </div>
