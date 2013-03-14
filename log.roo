@@ -65,3 +65,47 @@ exit
 // Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log opened at 2013-03-13 12:41:55
 exit
 // Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log closed at 2013-03-13 12:54:31
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log opened at 2013-03-13 13:09:51
+hint
+hint topics
+hint general
+hint topics general
+hint fields
+hint topics
+hint topics general
+hint general
+// [failed] focus --class ~.web
+hint focus
+hint web mvc
+focus --class ~.domain.Vet
+help
+json add
+focus --class ~.domain.Pet
+json add
+focus --class ~.domain.Owner
+json add
+focus --class ~.domain.Visit
+json add
+json all
+web mvc json all
+exit
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log closed at 2013-03-13 13:45:18
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log opened at 2013-03-13 13:45:46
+web mvc json all
+help
+hint web mvc json setup
+web mvc all --package ~.web
+pgp automatic trust
+addon install bundle --bundleSymbolicName org.springframework.roo.addon.cloud.foundry 
+addon install bundle --bundleSymbolicName org.springframework.roo.addon.cloud.foundry 
+addon search cloud
+exit
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log closed at 2013-03-13 15:48:29
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log opened at 2013-03-13 15:48:33
+addon install bundle --bundleSymbolicName org.springframework.roo.addon.cloud.foundry
+addon install bundle --bundleSymbolicName org.springframework.roo.addon.cloud.foundry
+addon list
+osgi obr url add --url http://spring-roo-repository.springsource.org/repository.xml
+osgi obr deploy --bundleSymbolicName org.springframework.roo.addon.cloud.foundry
+addon search --requiresCommand "cloud"
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log opened at 2013-03-13 18:52:00

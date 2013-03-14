@@ -60,7 +60,7 @@ body {
 	display: block;
 	margin: 0;
 	padding: 2px 6px;
-	color:#FFFFFF;
+	color:#820c0c;
 }
 
 #menu h2 {
@@ -192,7 +192,7 @@ a img {
 }
 
 tr:nth-child(odd) {
-	background-color: #FFFFFF;
+	background-color: #820c0c;
 }
 
 tr:nth-child(even) {
