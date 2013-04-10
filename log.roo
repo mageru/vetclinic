@@ -119,3 +119,9 @@ focus --class ~.domain.Vet
 field date --fieldName employedSince --type java.util.Date
 exit
 // Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log closed at 2013-03-13 23:53:09
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log opened at 2013-03-20 20:56:55
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log opened at 2013-04-09 18:33:15
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log opened at 2013-04-10 08:51:24
+hint
+hint topics
+hint entities
