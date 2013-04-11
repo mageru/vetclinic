@@ -125,3 +125,5 @@ exit
 hint
 hint topics
 hint entities
+// Spring Roo 1.2.3.RELEASE [rev 7fd62b6] log opened at 2013-04-10 18:35:19
+jpa setup --provider HIBERNATE --database MYSQL --userName root --password hd3-ca-6 --databaseName petclinic 
